@@ -1,0 +1,11 @@
+#today_goal {
+  color: steelblue;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Noto Sans", sans-serif;
+}
+#light_img {
+  width: 500px;
+  height: auto;
+  border-radius: 100px; /* or ?% */
+}
