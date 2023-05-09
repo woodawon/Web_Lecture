@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+  background-color: rgb(187, 207, 245);
+  font-family: "Noto Sans", sans-serif;
+}
+h1,
+p {
+  color: blueviolet;
+  text-align: center;
+}
+a {
+  color: violet;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
