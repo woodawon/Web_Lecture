@@ -1,0 +1,13 @@
+.register {
+  background-color: dodgerblue;
+  margin: auto;
+  width: 400px;
+  height: 200px;
+  padding-top: 40px;
+}
+.table {
+  margin: 20px auto;
+}
+#paint {
+  background-color: cornflowerblue;
+}
