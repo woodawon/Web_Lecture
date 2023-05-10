@@ -1,19 +1,27 @@
+main {
+  width: 800px;
+  background-color: #dfe6e9;
+  margin: 10% auto;
+  padding: 25px;
+  border: 3px solid black;
+  border-radius: 8px;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5); /* x방향 y방향 흐린정도 그림자의크기 핵상 */
+}
 #today_goal {
-  color: steelblue;
-  font-size: 30px;
+  color: #778ca3;
+  font-size: 20px;
   font-weight: bold;
   font-family: "Noto Sans", sans-serif;
 }
 #light_img {
-  width: 500px;
+  width: 300px;
   height: auto;
   border-radius: 100px; /* or ?% */
 }
 .home_text {
-  background-color: rgba(255, 250, 213, 0.512);
+  background-color: rgb(229, 228, 228);
   width: fit-content;
   margin: auto;
-  margin-bottom: 5%;
   padding: 5% 5%;
   border-radius: 50px;
 }

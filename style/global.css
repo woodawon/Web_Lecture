@@ -4,16 +4,16 @@
 
 body {
   text-align: center;
-  background-color: rgb(213, 213, 213);
+  background-color: whitesmoke;
   font-family: "Noto Sans", sans-serif;
 }
 h1,
 p {
-  color: rgb(96, 141, 255);
+  color: #778ca3;
   text-align: center;
 }
 a {
-  color: violet;
+  color: #4b7bec;
   text-decoration: none;
 }
 a:hover {
