@@ -1,20 +1,22 @@
 ul {
   text-align: center;
   background-color: #dfe6e9;
-  display: block;
+  display: flex;
+  /*  */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /*  */
+  justify-content: space-evenly;
 }
-ul::after {
+/* ul::after {
   content: "";
   display: block;
   clear: left;
-}
+} */
 li {
   /* li는 display가 list-item이 기본설정임.  */
   /* li 중앙정렬하려면 display값을 inline-block으로 바꿔줘야 함. */
-  float: left;
   list-style-type: none; /* li marker : none */
-  margin-right: 125px;
-  margin-left: 125px;
   border-bottom: 2px solid #778ca3;
 }
 li a {

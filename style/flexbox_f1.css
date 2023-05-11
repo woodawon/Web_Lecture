@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  background-color: #8492a6;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-name {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3333333333;
+}
+
+.profile-location {
+  font-size: 14px;
+  line-height: 1.4285714286;
+  color: #8492a6;
+}
+
+.profile-detail dt {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #8492a6;
+}
+
+.profile-detail dd {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1.25;
+  color: #0066ff;
+}
+
+/* ------------------ */
+
+.profile-class {
+  width: 386px;
+  background-color: whitesmoke;
+  padding: 32px 40px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+#cat {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  margin-bottom: 16px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-detail {
+  display: flex;
+  justify-content: space-around;
+}
+
+dt {
+  margin-bottom: 4px;
+}
+
+h1 {
+  margin-bottom: 4px;
+}
+
+p {
+  margin-bottom: 32px;
+}
+
+#back {
+  color: black;
+  text-decoration: none;
+  margin-inline-start: 2.5%;
+  margin: 50%;
+}
+#back:hover {
+  color: cornflowerblue;
+}

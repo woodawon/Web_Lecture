@@ -96,3 +96,12 @@ button:active {
   cursor: pointer;
   position: absolute;
 }
+
+#back {
+  color: white;
+  text-decoration: none;
+  margin-inline-start: 2.5%;
+}
+#back:hover {
+  color: cornflowerblue;
+}
