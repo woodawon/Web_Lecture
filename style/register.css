@@ -1,3 +1,6 @@
+.forms {
+  text-align: center;
+}
 .register {
   background-color: dodgerblue;
   margin: auto;
@@ -10,4 +13,12 @@
 }
 #paint {
   background-color: cornflowerblue;
+}
+#back {
+  color: black;
+  text-decoration: none;
+  margin-inline-start: 2.5%;
+}
+#back:hover {
+  color: cornflowerblue;
 }
