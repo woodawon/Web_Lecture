@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(
+    3,
+    minmax(100px, auto)
+  ); /* 가로 격자를 3줄로 쪼개자 */
+  height: 100vh;
+}
+
+header {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+main {
+  background-color: coral;
+  grid-row: 2/3;
+  grid-column: 1/2;
+
+  display: grid;
+  grid-template-rows: 1fr; /* 가로 격자를 1fr로 하자 */
+  grid-template-columns: repeat(
+    6,
+    minmax(100px, auto)
+  ); /* 세로 격자를 6개로 쪼개자 */
+  column-gap: 10px;
+  background-color: white;
+}
+
+footer {
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+
+#content-left {
+  grid-row: 1/2;
+  grid-column: 1/6;
+  display: grid;
+  grid-template-rows: repeat(5, minmax(100px, auto));
+  grid-template-columns: repeat(4, minmax(100px, auto));
+  row-gap: 10px;
+  column-gap: 10px;
+  background-color: white;
+}
+
+.menu {
+  grid-column: 1/5;
+  grid-row: 1/2;
+  background-color: rgb(198, 189, 255);
+}
+.home {
+  grid-column: 1/4;
+  grid-row: 2/6;
+  background-color: rgb(198, 189, 255);
+}
+.pannel {
+  grid-column: 4/5;
+  grid-row: 2/6;
+  background-color: rgb(198, 189, 255);
+}
+
+#content-right {
+  grid-row: 1/2;
+  grid-column: 6/7;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, minmax(100px, auto));
+  row-gap: 10px;
+  background-color: white;
+}
+.a {
+  background-color: rgb(198, 189, 255);
+}
+
+.b {
+  background-color: rgb(198, 189, 255);
+}
