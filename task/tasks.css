@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+}
+
+#cat {
+  width: 200px;
+}
+
+main {
+  height: 65vh;
+  padding-top: 60px;
+}
+
+.table {
+  margin: auto;
+  width: 400px;
+  height: 350px;
+}
+
+p {
+  height: 8vh;
+  padding-top: 23px;
+}
+
+#lesson {
+  background-color: deepskyblue;
+}
+
+footer {
+  background-color: lightgray;
+}
